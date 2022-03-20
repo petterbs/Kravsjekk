@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- Insert navigation bar HTML below -->
+    <h1>Forsinkelsesrentekalkulator</h1>
+
+    <form action="/" method="POST">
+    {{ form.hidden_tag() }}
+    <p>{{ form.belop.label }}
+    {{ form.belop() }}</p>
+    <p>{{ form.fra.label }}
+    {{ form.fra() }}</p>
+    <p>{{ form.til.label }}
+    {{ form.til() }}</p>
+    <p>{{ form.regn() }}</p>
+
+  </form>
+
+    <h2>Rentebeløp<h3>
+    <p>Kr {{ rente }}</p>
+
+
+
+
+  </body>
+</html>
