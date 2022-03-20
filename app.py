@@ -6,7 +6,6 @@ from wtforms.validators import DataRequired
 from datetime import datetime, timedelta, date
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "mysecret"
 
 
 
